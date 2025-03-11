@@ -1,0 +1,26 @@
+,model__n_estimators,model__min_samples_split,model__min_samples_leaf,model__max_features,model__max_depth,model__subsample,model__learning_rate,model__gamma,model__colsample_bytree,model__num_leaves,model__min_child_samples,model__criterion,model__max_samples,model__bootstrap
+Random Forest (Original Features),300.0,5.0,10.0,sqrt,10.0,,,,,,,,,
+XGBoost (Original Features),300.0,,,,5.0,0.5,0.005,0.0,0.5,,,,,
+LightGBM (Original Features),100.0,,,,7.0,,0.01,,,20.0,20.0,,,
+Bagging with Decision Tree (Original Features),300.0,,,,,,,,,,,,0.75,False
+Random Forest (Selected Features),300.0,10.0,5.0,log2,10.0,,,,,,,,,
+XGBoost (Selected Features),300.0,,,,5.0,0.5,0.01,1.0,0.75,,,,,
+LightGBM (Selected Features),100.0,,,,5.0,,0.01,,,20.0,20.0,,,
+Bagging with Decision Tree (Selected Features),100.0,,,,,,,,,,,,0.75,False
+Random Forest (Univariate FS),300.0,10.0,5.0,log2,10.0,,,,,,,,,
+XGBoost (Univariate FS),300.0,,,,5.0,0.5,0.01,0.0,0.5,,,,,
+LightGBM (Univariate FS),100.0,,,,7.0,,0.01,,,20.0,30.0,,,
+Bagging with Decision Tree (Univariate FS),300.0,,,,,,,,,,,,0.75,True
+Random Forest (Multivariate FS),300.0,10.0,5.0,log2,10.0,,,,,,,,,
+XGBoost (Multivariate FS),300.0,,,,5.0,0.5,0.01,1.0,0.75,,,,,
+LightGBM (Multivariate FS),100.0,,,,5.0,,0.01,,,20.0,40.0,,,
+Bagging with Decision Tree (Multivariate FS),200.0,,,,,,,,,,,,0.75,False
+Random Forest (Auto FE and FS),300.0,5.0,10.0,sqrt,10.0,,,,,,,,,
+XGBoost (Auto FE and FS),100.0,,,,5.0,0.5,0.005,1.0,0.5,,,,,
+LightGBM (Auto FE and FS),100.0,,,,5.0,,0.01,,,20.0,40.0,,,
+Bagging with Decision Tree (Auto FE and FS),100.0,,,,,,,,,,,,0.75,False
+Decision Tree (Original Features),,5.0,5.0,,7.0,,,,,,,entropy,,
+Decision Tree (Selected Features),,5.0,5.0,,3.0,,,,,,,gini,,
+Decision Tree (Univariate FS),,5.0,5.0,,10.0,,,,,,,gini,,
+Decision Tree (Multivariate FS),,5.0,5.0,,3.0,,,,,,,gini,,
+Decision Tree (Auto FE and FS),,5.0,10.0,,7.0,,,,,,,entropy,,

@@ -1,0 +1,1 @@
+{"gender": {"male": 0, "female": 1, "other": 2}, "work_type": {"private": 0, "self_employed": 1, "government": 2, "unemployed": 3}, "smoking_status": {"former_smoker": 0, "never_smoked": 1, "smoker": 2, "unknown": 3}}

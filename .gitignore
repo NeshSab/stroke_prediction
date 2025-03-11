@@ -1,0 +1,6 @@
+.DS_Store
+plotly_charts/.DS_Store
+utils/__pycache__/
+env/
+data/test.csv
+data/train.csv

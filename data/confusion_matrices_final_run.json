@@ -1,0 +1,252 @@
+{
+    "Random Forest (Original Features)": [
+        [
+            650,
+            322
+        ],
+        [
+            9,
+            41
+        ]
+    ],
+    "XGBoost (Original Features)": [
+        [
+            532,
+            440
+        ],
+        [
+            6,
+            44
+        ]
+    ],
+    "LightGBM (Original Features)": [
+        [
+            750,
+            222
+        ],
+        [
+            9,
+            41
+        ]
+    ],
+    "Decision Tree (Original Features)": [
+        [
+            589,
+            383
+        ],
+        [
+            17,
+            33
+        ]
+    ],
+    "Bagging with Decision Tree (Original Features)": [
+        [
+            954,
+            18
+        ],
+        [
+            45,
+            5
+        ]
+    ],
+    "Random Forest (Selected Features)": [
+        [
+            728,
+            244
+        ],
+        [
+            9,
+            41
+        ]
+    ],
+    "XGBoost (Selected Features)": [
+        [
+            627,
+            345
+        ],
+        [
+            9,
+            41
+        ]
+    ],
+    "LightGBM (Selected Features)": [
+        [
+            688,
+            284
+        ],
+        [
+            11,
+            39
+        ]
+    ],
+    "Decision Tree (Selected Features)": [
+        [
+            554,
+            418
+        ],
+        [
+            8,
+            42
+        ]
+    ],
+    "Bagging with Decision Tree (Selected Features)": [
+        [
+            955,
+            17
+        ],
+        [
+            43,
+            7
+        ]
+    ],
+    "Random Forest (Univariate FS)": [
+        [
+            765,
+            207
+        ],
+        [
+            11,
+            39
+        ]
+    ],
+    "XGBoost (Univariate FS)": [
+        [
+            636,
+            336
+        ],
+        [
+            9,
+            41
+        ]
+    ],
+    "LightGBM (Univariate FS)": [
+        [
+            749,
+            223
+        ],
+        [
+            11,
+            39
+        ]
+    ],
+    "Decision Tree (Univariate FS)": [
+        [
+            751,
+            221
+        ],
+        [
+            18,
+            32
+        ]
+    ],
+    "Bagging with Decision Tree (Univariate FS)": [
+        [
+            958,
+            14
+        ],
+        [
+            45,
+            5
+        ]
+    ],
+    "Random Forest (Multivariate FS)": [
+        [
+            770,
+            202
+        ],
+        [
+            13,
+            37
+        ]
+    ],
+    "XGBoost (Multivariate FS)": [
+        [
+            628,
+            344
+        ],
+        [
+            9,
+            41
+        ]
+    ],
+    "LightGBM (Multivariate FS)": [
+        [
+            708,
+            264
+        ],
+        [
+            9,
+            41
+        ]
+    ],
+    "Decision Tree (Multivariate FS)": [
+        [
+            560,
+            412
+        ],
+        [
+            11,
+            39
+        ]
+    ],
+    "Bagging with Decision Tree (Multivariate FS)": [
+        [
+            952,
+            20
+        ],
+        [
+            44,
+            6
+        ]
+    ],
+    "Random Forest (Auto FE and FS)": [
+        [
+            659,
+            313
+        ],
+        [
+            10,
+            40
+        ]
+    ],
+    "XGBoost (Auto FE and FS)": [
+        [
+            0,
+            972
+        ],
+        [
+            0,
+            50
+        ]
+    ],
+    "LightGBM (Auto FE and FS)": [
+        [
+            706,
+            266
+        ],
+        [
+            9,
+            41
+        ]
+    ],
+    "Decision Tree (Auto FE and FS)": [
+        [
+            592,
+            380
+        ],
+        [
+            18,
+            32
+        ]
+    ],
+    "Bagging with Decision Tree (Auto FE and FS)": [
+        [
+            949,
+            23
+        ],
+        [
+            43,
+            7
+        ]
+    ]
+}
