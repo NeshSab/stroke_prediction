@@ -95,8 +95,6 @@ def compute_vif(
         X = X.loc[:, X.nunique() > 2]
     X = X.replace([np.inf, -np.inf], np.nan).dropna()
 
-    X = sm.add_constant(X)
-
     vif_data = pd.DataFrame()
     vif_data["variable"] = X.columns
     vif_data["VIF"] = [
@@ -105,15 +103,15 @@ def compute_vif(
 
     vif_data["multicollinearity_interpretation"] = vif_data["VIF"].apply(
         lambda vif: (
-            "No Multicollinearity"
+            "no"
             if vif < 1
             else (
-                "Low Multicollinearity"
+                "low"
                 if 1 <= vif < 5
                 else (
-                    "Moderate Multicollinearity"
+                    "moderate"
                     if 5 <= vif < 10
-                    else "High Multicollinearity (Consider Removing Feature)"
+                    else "high (consider removing feature)"
                 )
             )
         )
